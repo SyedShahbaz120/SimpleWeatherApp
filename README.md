@@ -14,7 +14,6 @@ Use UIKit for building the user interface
 
 Dependencies:
 SwiftyJSON: For parsing JSON data.
-SDWebImage: For asynchronously loading and caching images.
 
 Installation:
 Make sure you have CocoaPods installed.
