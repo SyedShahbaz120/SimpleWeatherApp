@@ -27,6 +27,9 @@ Toggle between Celsius and Fahrenheit using the temperature unit toggle.
 Credits:
 Icons provided by SF Symbols.
 
+Resources and Links
+Weather API: https://www.weatherapi.com/docs/
+
 
 ## About
 
