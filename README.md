@@ -1,4 +1,6 @@
 # SimpleWeatherApp
+By Syed Shahbaz
+
 "The Simple Weather App fetches current weather data from WeatherAPI and displays it with location, temperature, and condition. Users can search locations, toggle Celsius/Fahrenheit, and get weather for their current location."
 
 
@@ -10,24 +12,22 @@ Toggle between Celsius and Fahrenheit temperature units
 Utilize Core Location for location-based services
 Use UIKit for building the user interface
 
-## Dependencies
+Dependencies:
+SwiftyJSON: For parsing JSON data.
+SDWebImage: For asynchronously loading and caching images.
 
-The Simple Weather App relies on the following dependencies:
+Installation:
+Make sure you have CocoaPods installed.
+Run pod install in the project directory to install dependencies.
 
-- Alamofire: For handling networking tasks
-- SwiftyJSON: For parsing JSON data
-- SDWebImage: For asynchronously loading and caching images
+Usage:
+Enter a location in the search bar and tap "Search" to get the weather.
+Tap the location button to get weather information for your current location.
+Toggle between Celsius and Fahrenheit using the temperature unit toggle.
 
-These dependencies are managed using CocoaPods. Make sure to install CocoaPods and run `pod install` before running the project.
+Credits:
+Icons provided by SF Symbols.
 
-## Using SF Symbols
-
-SF Symbols is Apple's icon set that provides over 2,400 configurable symbols. To use SF Symbols in your project, simply refer to the symbol names provided in the Apple SF Symbols app or website and use them with `UIImage(systemName: "symbolName")`.
-
-Usage
-Enter a location parameter in the search box and tap Search to retrieve weather information.
-Tap the Location button to fetch weather information for your current location.
-Toggle the temperature unit switch to switch between Celsius and Fahrenheit.
 
 ## About
 
